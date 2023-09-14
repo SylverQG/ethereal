@@ -42,7 +42,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          external_repository: SylverQG/SylverQG.github.io/ethereal_blog
+          external_repository: SylverQG/ethereal_blog
           publish_branch: main
           user_name: SylverQG
           user_email: doublc_qluv@163.com
