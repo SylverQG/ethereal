@@ -30,12 +30,10 @@ jobs:
         run: |
           touch .env
           echo VITE_GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} >> .env
-          
+          echo VITE_LEANCLOUD_ID: ${{ secrets.VITE_LEANCLOUD_ID }} >> .env
+          echo VITE_LEANCLOUD_KEY: ${{ secrets.VITE_LEANCLOUD_KEY }} >> .env
+          echo VITE_LEANCLOUD_SERVER: ${{ secrets.VITE_LEANCLOUD_SERVER }} >> .env
         # echo VITE_TWIKOO_ID: ${{ secrets.VITE_TWIKOO_ID }} >> .env
-        # echo VITE_LEANCLOUD_ID: ${{ secrets.VITE_LEANCLOUD_ID }} >> .env
-        # echo VITE_LEANCLOUD_KEY: ${{ secrets.VITE_LEANCLOUD_KEY }} >> .env
-        # echo VITE_LEANCLOUD_SERVER: ${{ secrets.VITE_LEANCLOUD_SERVER }} >> .env
-      
       - name: Build
         run: pnpm run build
 
