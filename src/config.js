@@ -29,34 +29,34 @@
  */
 export default {
   // 博客基础配置
-  title: 'wallleap',
-  subtitle: 'ルー・ワン',
-  description: 'Luwang\'s blog',
-  keywords: 'Luwang, blog, wallleap',
+  title: 'SylverQG',
+  subtitle: '原神，启动！',
+  description: 'SylverQG\'s blog',
+  keywords: 'Doublc_Qluv, blog, SylverQG',
   favicon: '/favicon.ico',
   favicon16: '/favicon.ico',
   favicon32: '/favicon.ico',
-  createdTime: '2019-08-01',
-  icp: '赣ICP备20000895号-1',
-  icpLink: '//beian.miit.gov.cn/',
+  createdTime: '2023-08-01',
+  icp: '',
+  icpLink: '',
   beian: '',
   beianLink: '',
   // 关于页二维码
-  alipay_qr: '//cdn.wallleap.cn/img/custom/donate/alipayQr.jpg',
+  alipay_qr: '',
   // GitHub Issues 配置
-  username: 'wallleap',
-  repository: 'myblogs',
+  username: 'SylverQG',
+  repository: 'ethereal_blog',
   friendsRepo: 'friends',
   // 您的信息
-  author: 'Luwang',
-  email: 'luwang@oicode.cn',
-  link: '//luwang.info',
-  github: '//github.com/wallleap',
+  author: 'SylverQG',
+  email: 'doublc_qluv@163.com',
+  // link: '//luwang.info',
+  github: '//github.com/SylverQG',
   // 友链信息
-  name: 'wallleap',
-  url: '//myblog.wallleap.cn',
-  avatar: '//gravatar.wallleap.cn/avatar/be1ccdcf025a92b98a92e331e1b3662a?size=256',
-  desc: 'Luwang\'s blog',
+  name: 'SylverQG',
+  url: '//sylverqg.github.io',
+  // avatar: '//gravatar.wallleap.cn/avatar/be1ccdcf025a92b98a92e331e1b3662a?size=256',
+  desc: 'SylverQG\'s blog',
   // 文章相关
   pageSize: 12,
   defaultCover: '//cdn.wallleap.cn/img/post/1.jpg',
@@ -65,13 +65,12 @@ export default {
   // 评论配置
   utterances: {
     code: `<script src="https://utteranc.es/client.js"
-      repo="wallleap/comments"
-      issue-term="title"
-      label="Comment"
-      theme="github-light"
-      crossorigin="anonymous"
-      async>
-    </script>`,
+    repo="SylverQG/ethereal_blog"
+    issue-term="pathname"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
+</script>`,
   },
   twikoo: {
     src: '//cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js',
